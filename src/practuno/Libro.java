@@ -17,6 +17,7 @@ public abstract class Libro {
     String editorial = "";
     float precio = 0;
 
+    
     public abstract void buscarlibro();
 
     public abstract void ventaLibros();
