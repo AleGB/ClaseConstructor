@@ -26,12 +26,11 @@ public abstract class Libro {
 
     public abstract void publicalibro();
 
-    //funciona para el método buscalibro
     Libro(String nombreautor, String nombrelibro) {
         this.nombreautor = nombreautor;
         this.nombrelibro = nombrelibro;
     }
-    //funciona para el método ventaLibro 
+  
     Libro(String nombrelibro, float precio) {
         this.nombrelibro = nombrelibro;
         this.precio = precio;
